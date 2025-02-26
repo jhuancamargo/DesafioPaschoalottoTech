@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Usuários - Paschoalotto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <img src="logo-paschoalotto.png" alt="Logo Paschoalotto" class="logo">
+        <h1>Relatório de Usuários</h1>
+    </header>
+
+    <table id="tabelaUsuarios">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Endereço</th>
+                <th>Data de Nascimento</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+<!-- informações serão adicionadas aqui -->
+        </tbody>
+    </table>
+
+    <!-- modal -->
+    <div id="modalEdicao" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Editar Usuário</h2>
+            <input type="hidden" id="editId">
+            <label for="editNome">Nome:</label>
+            <input type="text" id="editNome"><br>
+            <label for="editEmail">Email:</label>
+            <input type="email" id="editEmail"><br>
+            <label for="editTelefone">Telefone:</label>
+            <input type="text" id="editTelefone"><br>
+            <label for="editEndereco">Endereço:</label>
+            <input type="text" id="editEndereco"><br>
+            <label for="editDataNascimento">Data de Nascimento:</label>
+            <input type="date" id="editDataNascimento"><br>
+            <button onclick="salvarEdicao()">Salvar</button>
+            <button onclick="fecharModal()">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
