@@ -60,14 +60,17 @@ A aplicação permite:
 
 ### Passos
 1. **Clone o repositório**:
-   ```bash
    git clone https://github.com/seu-usuario/paschoalotto-desafio.git
    cd paschoalotto-desafio
-2. **Configure o Banco de Dados**:
+   
+3. **Configure o Banco de Dados**:
    Crie um banco de dados PostgreSQL chamado paschoalotto_db.
+   Utilizando pgAdmin4 | Servers > PostgresSQL > Databases> Schemas > Tables > Botão direito - Create para criar uma tabela. No mesmo local que deverá criar sua tabela, você pode adicionar Columns com suas respectivas necessidades.
    Atualize a string de conexão no arquivo appsettings.json com as credenciais do seu banco de dados.
-3. **Execute o Backend**:   
-     avegue até a pasta do backend:
+   **Vídeo Tutorial** https://www.youtube.com/watch?v=L_2l8XTCPAE&ab_channel=HashtagPrograma%C3%A7%C3%A3o
+   
+5. **Execute o Backend**:   
+     Navegue até a pasta do backend:
 *cd backend/PaschoalottoBackend*
 Restaure as dependências do projeto:
 *dotnet restore*
