@@ -1,6 +1,6 @@
 # Relatório de Usuários - Paschoalotto
 
-Este projeto foi desenvolvido como parte de um desafio técnico para a Paschoalotto, com o objetivo de criar uma aplicação backend em C# (.NET) integrada a um banco de dados PostgreSQL e um frontend em HTML, CSS e JavaScript para exibir e editar dados de usuários gerados pela API [Random User Generator](https://randomuser.me/).
+Este projeto foi desenvolvido como parte de um desafio técnico para a Paschoalotto, com o objetivo de criar uma aplicação backend em C# (.NET) integrada a um banco de dados PostgreSQL e um frontend em HTML, CSS (*extra*) e JavaScript para exibir e editar dados de usuários gerados pela API [Random User Generator](https://randomuser.me/).
 
 A aplicação permite:
 - Gerar usuários aleatórios e armazená-los no banco de dados.
